@@ -1,10 +1,12 @@
 import './App.css';
-import Provider from 'provider';
+import { createUserForm } from 'provider';
+
+const UserForm = createUserForm({})
 
 const App = () => {
   return (
     <div className="content">
-      <Provider />
+      <UserForm />
     </div>
   );
 };

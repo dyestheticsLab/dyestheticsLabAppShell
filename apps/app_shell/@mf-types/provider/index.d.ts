@@ -1,2 +1,2 @@
-export * from './compiled-types/components/ProviderComponent';
-export { default } from './compiled-types/components/ProviderComponent';
+export * from './compiled-types/creators/createUserForm';
+export { default } from './compiled-types/creators/createUserForm';

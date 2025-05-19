@@ -9,5 +9,7 @@ export default createModuleFederationConfig({
   shared: {
     react: { singleton: true },
     'react-dom': { singleton: true },
+    'inversify': { singleton: true },
+    'reflect-metadata': { singleton: true },
   },
 });

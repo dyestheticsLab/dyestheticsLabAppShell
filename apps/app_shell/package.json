@@ -8,15 +8,18 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@tanstack/react-router": "^1.120.5",
+    "inversify": "^7.5.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^0.14.0",
     "@rsbuild/core": "^1.2.15",
     "@rsbuild/plugin-react": "^1.1.1",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "~18.3.1",
-    "typescript": "^5.7.2",
-    "@module-federation/rsbuild-plugin": "^0.14.0"
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "~19.1.5",
+    "typescript": "^5.7.2"
   }
 }
